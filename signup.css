@@ -1,0 +1,48 @@
+:root {
+	background-color: black;
+	color: white;
+	position: relative;
+}
+main {
+	display: block;
+	width: 80%;
+	margin:150px auto;
+
+}
+.formDiv {
+	diplay: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.inputFormField{
+	font-size: 24px;
+	padding:10px;
+	font-family: Inter;
+	font-weight: 300;
+	border: none;
+	width: 100%;
+	background-color: transparent;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.inputFormField::-webkit-input-placeholder{
+	color: white;
+	opacity:1;
+}
+#h1 {
+	font-size: 64px;
+}
+.radioBtn {
+	margin: 10px 0px;
+}
+.submitBtn {
+	width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
